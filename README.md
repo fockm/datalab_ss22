@@ -6,7 +6,7 @@ The purpose of this course is to provide an insight into the field of Data Analy
 
 [Resources](resources.md)
 
-1. [Lab 1 - 13.10.2021 - Setting up](#lab-1)
+1. [Setting up](#lab-1)
     1. [Prerequisites](#prerequisites)
     2. [Task 1](#task-1)
     3. [Task 2](#task-2)
@@ -35,7 +35,7 @@ The purpose of this course is to provide an insight into the field of Data Analy
 
 ![Screenshot 2021-10-14 at 11 47 03](https://user-images.githubusercontent.com/6952640/137299631-11d5982d-b60c-4484-943e-0e0b8f22ea26.png)
 
-> Now you should have __your own repository__ in your namespace called datalab `<username>/datalab`.
+> Now you should have __your own repository__ in your namespace called datalab_ss22 `<username>/datalab_ss22`.
 
 * You should also have a ssh key added to your account to continue - if not use the _'HTTPS'_ link for the repository - you will be prompted for a username and password everytime. Copy the git url of this repository by going to your github page, the repository and clicking on _Code_>_SSH_>_copy_:
 
@@ -44,10 +44,10 @@ The purpose of this course is to provide an insight into the field of Data Analy
 * Open a command line/terminal an clone your repository. The command should look something like:
 
 ```
-git clone git@github.com:<username>/datalab.git
+git clone git@github.com:<username>/datalab_ss22.git
 ```
 
-This will automatically create a new folder called `datalab` inside the folder where you ran the command and will give you an error if such a folder exists. If you want the folder to have another name run `git clone gitithub.com:<username>/datalab.git <new_folder_name>`. IF you want to move the entire folder after you have cloned it everything will work fine as the git references are kept in hidden files inside the folder.
+This will automatically create a new folder called `datalab_ss22` inside the folder where you ran the command and will give you an error if such a folder exists. If you want the folder to have another name run `git clone gitithub.com:<username>/datalab_ss22.git <new_folder_name>`, e.g: `git clone gitithub.com:<username>/datalab_ss22.git datalab`. If you want to move the entire folder after you have cloned it, everything will work fine as the git references are kept in hidden files inside the folder.
 
 #### Your first commit
 
@@ -88,11 +88,11 @@ To get new changes that are pushed to __this__ main repository the simplest way 
   To see what repositorities you are tracking run `git remote -v` - The output will probably look like this
   ```
   $ git remote -v
-  origin	git@github.com:<your_username>/datalab.git (fetch)
-  origin	git@github.com:<your_username>/datalab.git (push)
+  origin	git@github.com:<your_username>/datalab_ss22.git (fetch)
+  origin	git@github.com:<your_username>/datalab_ss22.git (push)
   ```
   Because you did the fork from the interface you can also get the new changes from the interface. But the better way to it is to add a _'remote'_ pointing to the fork (Add a keyname for the main repository). The textbook name for a repo you forked from is __upstream__. 
-  Add a remote named _upstream_ pointing to *this* repo using: `git remote add upstream git@github.com:alebot/datalab.git`. Now when you run `git remote -v`you should see something like this:
+  Add a remote named _upstream_ pointing to *this* repo using: `git remote add upstream git@github.com:alebot/datalab_ss22.git`. Now when you run `git remote -v`you should see something *like* this:
   ```
   $ git remote -v
   origin	git@github.com:<your_username>/datalab.git (fetch)
@@ -140,8 +140,9 @@ you should get no errors and just a help message.
 * Have an IDE prepared, wheather it is [Jupyter](https://jupyter.org), [PyCharm](https://www.jetbrains.com/pycharm/), [Notebook++](https://notepad-plus-plus.org/downloads/), etc - the most important thing is you can easily work with it. Try to write a script that prints "Hello World!" and run it. 
   
 ## Exercises
-  
-  Open [Exercise_1.pdf](https://github.com/alebot/datalab/blob/main/Exercise_1.pdf) read the theory and solve the tasks. Complete solutions [here](https://github.com/alebot/datalab/blob/main/Ex1_solution.ipynb). The same for [Exercise 3](https://github.com/alebot/datalab/blob/main/Exercise_3.pdf) and [Exercise 4](https://github.com/alebot/datalab/blob/main/Exercise_4.pdf) with [solutions](https://github.com/alebot/datalab/blob/main/Ex3_solutions.ipynb). The final assignment sheet and data are in the [assignment folder](https://github.com/alebot/datalab/tree/main/assignment) in this repo. 
+ 
+We will go through the Exercise sheets and solutions together.
+The final assignment sheet and data will be in the [assignment folder](https://github.com/alebot/datalab_ss22/tree/main/assignment) in this repo. 
     
 ## Parallel Programming 
     
