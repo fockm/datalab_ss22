@@ -1,1 +1,5 @@
 notebooks/**
+code/**
+.DS_Store
+.ipynb_checkpoints/
+solutions/.ipynb_checkpoints/
